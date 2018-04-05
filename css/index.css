@@ -8249,3 +8249,21 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
+.container {
+  max-width: 100%;
+}
+.myHeader {
+  background-color: #f4f4f4;
+  border-bottom: 2px solid #e0e0e0;
+}
+.myHeader h1 {
+  text-align: center;
+}
+.myHeader .navbar ul {
+  margin: 0;
+  padding: 0;
+}
+.myHeader .navbar ul a {
+  color: black;
+  margin: 0 10px;
+}

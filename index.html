@@ -17,22 +17,29 @@
 
 <body>
   <div class="container">
-    <div class="row">
-      <div class="col-sm-12">
-        SpaceWalker
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-sm-12">
-        <nav>
-          <a href="#">Home</a>
-          <a href="#">About Us</a>
-          <a href="#">Blog</a>
-          <a href="#">Contact</a>
-          <a href="#">Sign In</a>
+    <!-- Navigation  -->
+    <div class="row justify-content-center myHeader">
+      <h1 class="col-12 mt-2">SpaceWalker</h1>
+
+        <nav class = "navbar justify-content-center">
+            <ul>
+              <a href="#">Home</a>
+
+              <a class="dropdown-toggle" href="#" id="dropdownMenuLink" data-toggle="dropdown">About Us</a>
+
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Our Vision</a>
+                <a class="dropdown-item" href="#">The Team</a>
+              </div>
+
+              <a href="#">Blog</a>
+              <a href="#">Contact</a>
+              <a href="#">Sign In</a>
+            </ul>
         </nav>
-      </div>
     </div>
+    <!-- Carousel -->
+    
     <div class="row">
       <div class="col-sm-12">
         <img src="./img/slider-1.jpg">
@@ -128,8 +135,8 @@
       </div>
 
       </div>
-  </div>
-  </div>
+    </div>
+  </div> <!-- end of Container -->
   <footer>
     Copyright SpaceWalkers 2018
   </footer>
