@@ -8267,3 +8267,32 @@ h5 {
   color: black;
   margin: 0 10px;
 }
+form button {
+  color: white;
+  background: #22283B;
+}
+.mySpaceStuff ul {
+  margin: 0;
+  padding: 0;
+  border: 1px solid #e0e0e0;
+  display: flex;
+  flex-direction: column;
+}
+.mySpaceStuff ul a {
+  padding: 10px 0 10px 10px;
+  border-bottom: 1px solid #e0e0e0;
+}
+.mySpaceStuff ul a:last-child {
+  border-bottom: 0;
+}
+.mySpaceStuff ul a:hover {
+  background-color: #e0e0e0;
+}
+.myFooter div {
+  background-color: #e0e0e0;
+}
+.myFooter p {
+  text-align: center;
+  padding: 15px;
+  margin: 0;
+}
